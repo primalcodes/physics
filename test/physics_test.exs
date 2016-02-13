@@ -3,6 +3,7 @@ defmodule PhysicsTest do
   doctest Physics
 
   test "the truth" do
-    assert 1 + 1 == 2
+    IO.inspect "This is a test"
+    assert "primal"<>"codes" == "primalcodes"
   end
 end
